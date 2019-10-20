@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="" name="author">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FXMASTERMIND" />
+    <meta content="FXMASTERMIND" name="site_name">
+    <meta content="FXMASTERMIND" name="image">
+    <!-- SITE TITLE -->
+    <title>FXMASTERMIND</title>
+    <!-- Favicon Icon -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png"> -->
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <!--- owl carousel CSS-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/jssocials-theme-flat.css">
+    <link rel="stylesheet" href="assets/css/jssocials.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link id="layoutstyle" rel="stylesheet" href="assets/color/theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/footable.standalone.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="assets/css/toastr.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+  </head>
+  <body data-spy="scroll" data-offset="110" data-target="#main-menu">
+    <!-- LOADER -->
+    <div class="preloader">
+      <div id="loader"></div>
+    </div>
+    <!-- END LOADER --> 
+    <!-- SOCIAL & LOGIN HEADER -->
+    <div class="social-login-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="social-container border-0 text-left">
+              <span class="social-net-header d-none d-lg-inline-block d-md-inline-block">Social Networks</span>
+              <div class="d-inline-block">
+                <a href="javascript:void(0)" target="_blank" class="btn-social btn-facebook">
+                <i class="fa fa-facebook"></i>
+                </a>
+                <a href="javascript:void(0)" target="_blank" class="btn-social btn-twitter">
+                <i class="fa fa-twitter"></i>
+                </a>
+                <a href="javascript:void(0)" target="_blank" class="btn-social btn-linkedin">
+                <i class="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 pl-0">
+            <div class="login-sign-container">
+              <button type="submit" class="btn btn-default" id="submitButton" name="submit" value="Login"><span>Login</span> <i class="ion-ios-arrow-thin-right"></i></button>
+              <button type="submit" class="btn btn-default" id="submitButton" name="submit" value="Sign Up"><span>Sign Up</span> <i class="ion-ios-arrow-thin-right"></i></button>
+            </div>
+            <div class="after-login">
+              <ul class="after-login-menu">
+                <li class="menu-dropdown dropdown text-uppercase">
+                  <a href="javascript:void(0)" data-toggle="dropdown" role="button" aria-expanded="false" class="profile-name">
+                    <div class="profile-img-sm">
+                      <img src="assets/images/team3.jpg" alt="Profile Name">
+                    </div>
+                    <span>Mr John Doe Salvator</span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu">
+                    <a class="dropdown-item"><span class="arrow"></span></a>
+                    <a class="dropdown-item" href="javascript:void(0)">Profile</a>
+                    <a class="dropdown-item" href="javascript:void(0)">Sign Out</a>
+                    <div class="dropshadow"></div>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SOCIAL & LOGIN HEADER END -->
+    <div class="middle-head-space">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-left">
+            <a href="javascript:void(0)">
+            <span class="logo-text">FXMASTERMIND</span>
+            </a>
+          </div>
+          <div class="col-6 text-right">
+            <a href="javascript:void(0)">
+            <img src="assets/images/fx_vps.gif" class="adver" alt="FX VPS Animation">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START HEADER --> 
+    <header class="header_wrap fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <!--    <a class="navbar-brand page-scroll" href="#home">
+            <img class="logo_light" src="assets/images/logo.png" alt="logo" />
+               <img class="logo_dark" src="assets/images/logo_dark.png" alt="logo" />
+            </a> -->
+          <span class="logo-text sm-show">FXMASTERMIND</span>
+          <button class="navbar-toggler" type="button"> <span class="ion-android-menu"></span> </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav" id="main-menu">
+              <li><a class="nav-link page-scroll" href="index.html">Home</a></li>
+              <li class="menu-dropdown dropdown">
+                <a class="nav-link" href="javascript:void(0)">Our Services</a>
+                <ul class="dropdown-menu" role="menu">
+                  <a class="dropdown-item"><span class="arrow"></span></a>
+                  <a class="dropdown-item" href="copytrade.html">Copytrade</a>
+                  <a class="dropdown-item" href="fund-manage.html">Fund Management</a>
+                  <a class="dropdown-item" href="fx-consultancy.html">FX Consultancy</a>
+                  <div class="dropshadow"></div>
+                </ul>
+              </li>
+              <li class="menu-dropdown dropdown">
+                <a class="nav-link" href="javascript:void(0)">Signal Service</a>
+                <ul class="dropdown-menu" role="menu">
+                  <a class="dropdown-item"><span class="arrow"></span></a>
+                  <a class="dropdown-item" href="signal/fx-signal.html">FX Signal</a>
+                  <a class="dropdown-item" href="signal/signal-package.html">Signal Packages</a>
+                  <a class="dropdown-item" href="signal/signal-report.html">Signal report</a>
+                  <a class="dropdown-item" href="signal/signal-faq.html">Signal Faq</a>
+                  <div class="dropshadow"></div>
+                </ul>
+              </li>
+              <li><a class="nav-link page-scroll" href="analysis/fx-analysis.html">Market Analysis</a></li>
+              <li><a class="nav-link page-scroll" href="blog/fx-blog.html">Official Blog</a></li>
+              <li class="menu-dropdown dropdown">
+                <a class="nav-link" href="javascript:void(0)">Broker Review</a>
+                <ul class="dropdown-menu" role="menu">
+                  <a class="dropdown-item"><span class="arrow"></span></a>
+                  <a class="dropdown-item" href="broker.html">All Brokers</a>
+                  <div class="dropshadow"></div>
+                </ul>
+              </li>
+              <li class="menu-dropdown dropdown">
+                <a class="nav-link" href="javascript:void(0)">FXMASTERMIND</a>
+                <ul class="dropdown-menu" role="menu">
+                  <a class="dropdown-item"><span class="arrow"></span></a>
+                  <a class="dropdown-item" href="about.html">About</a>
+                  <a class="dropdown-item" href="faq.html">FAQ</a>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                  <div class="dropshadow"></div>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- Start Ticker -->
+    <div class="ticker-container">
+      <div class="loader-delay">
+        <div id="loader-1">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <div id="carouselTicker" class="load-time">
+        <div class="carouselTicker carouselTicker-start">
+          <ul class="carouselTicker__list text-center ms-margin">
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-up text-success"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-down text-danger"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-up text-success"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-down text-danger"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-up text-success"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-down text-danger"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-up text-success"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-down text-danger"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-up text-success"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-down text-danger"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-up text-success"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" target="_blank">
+                  <ul class="signal-content-list">
+                    <li><img src="assets/images/flag.png" alt="flag"></li>
+                    <li><span>EURUSD</span></li>
+                    <li><i class="fa fa-arrow-down text-danger"></i></li>
+                    <li>700 PIPS</li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="carouselTicker__item ">
+              <div class="tic-signal-container">
+                <a href="javascript:void(0)" class="pre-btn">get premium signal</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Ticker -->
+    <section class="header-with-pic contact-bg">
+      <div class="middle-text">
+        <h2>Review Submission</h2>
+        <p>Please Submit Your Review By Filling The Form Below</p>
+      </div>
+    </section>
+    <section class="review-form-main">
+      <div class="container">
+        <ul class="custum-nav-indicator slave-sm-none nav nav-tabs nav-tabs-transparent indicator-primary market-panal-bg" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link withoutripple active" href="#stepone" aria-controls="cat" role="tab" data-toggle="tab" id="step-1">
+            <i class="fa fa-exclamation-circle no-mr"></i> <span class="d-none d-sm-inline text-uppercase">Step 1</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link withoutripple" href="#steptwo"  aria-controls="cat1" role="tab" data-toggle="tab" id="step-2">
+            <i class="fa fa-certificate no-mr"></i> <span class="d-none d-sm-inline text-uppercase">Step 2 </span>
+            </a>
+          </li>
+        </ul>
+        <div class="panel-body">
+          <div class="tab-content">
+            <!-- Step-1 -->
+            <div role="tabpanel" class="tab-pane active show fade" id="stepone">
+              <div class="container review-form-container">
+                <h2>COMPANY INFORMATION</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="broker-logo">Broker Logo</label>
+                        <p class="form-group no-m custom-up-field">
+                          <input type="text" class="form-control broker-logo-up" readonly required="required">
+                          <span class="browse-btn" data-target="#broker-logo-up">Browse</span>
+                          <input type="file" name="broker-logo" id="broker-logo-up" class="upfile-hidden">
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="broker-name">Video Link</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom" placeholder="https://www.youtube.com/watch?v=Video_ID" name="broker-name">
+                        </p>
+                        <small>* provide your youtube video here</small>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="broker-name">Broker Name</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom nama-valid" placeholder="Broker Name" name="broker-name">
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="website">WEBSITE</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom" placeholder="Website" name="website" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="headquartered">HEADQUARTERED IN </label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom" placeholder="headquartered in" name="headquartered" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="founder-in">FOUNDED IN</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom" placeholder="Founder In" name="founder-in" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="regulating-authority">REGULATING AUTHORITY</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom" placeholder="regulating authority" name="regulating-authority" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="clients-us">US CLINETS ACCEPTED</label>
+                        <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                          <label class="mr-1 radiofix">
+                          <input required="required" type="radio"  name="us-client" value="yes">
+                          <span class="redio-check"></span>
+                          <span class="ac-name">Yes</span>
+                          </label>
+                          <label class="mr-1 radiofix">
+                          <input required="required" type="radio"  name="us-client" value="no">
+                          <span class="redio-check"></span>
+                          <span class="ac-name">No</span>
+                          </label>
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="broker-status">BROKER STATUS</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom no-m" placeholder="Broker Status" name="broker-status" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="broker-type">BROKER TYPE</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom no-m" placeholder="Broker Type" name="broker-type" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="telephone">TELEPHONE NUMBER</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom no-m" placeholder="Telephone Number" name="telephone" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="fax">FAX NUMBER</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom no-m" placeholder="Fax Number" name="fax" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="email-support">EMAIL SUPPORT</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="email" class="form-control form-custom no-m" placeholder="Email Support" name="email-support" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="international-office">INTERNATIONAL OFFICE</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom no-m" placeholder="International Office" name="international-office" >
+                        </p>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="web-language">WEB SITE LANGUAGE</label>
+                        <p class="form-group no-m">
+                          <input required="required" type="text" class="form-control form-custom no-m" placeholder="Wec Site Language" name="web-language" >
+                        </p>
+                      </div>
+                  </div>
+                </form>
+                <h2>ACCOUNT INFORMATION</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="demo-account">FREE DEMO ACCOUNT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="demo-account" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="demo-account" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="min-deposit">MIN. DEPOSIT</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Min. Deposit" name="min-deposit" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="ecn-deposit">ECN DEPOSIT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="ecn-deposit" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="ecn-deposit" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="acc-currency">ACCOUNT CURRENCY</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Account Currency" name="acc-currency" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="max-leverage">MAXIMUM LEVERAGE</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Maximum Leverage" name="max-leverage" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="min-order-vol">MINIMUL ORDER VOL.</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Minimul Order Vol." name="min-order-vol" >
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <h2>TRADING TERMS</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="interest-margin">INTEREST ON MARGIN</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="interest-margin" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="interest-margin" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="os-compatibility">OS COMPATIBILITY</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="OS Compatibility" name="os-compatibility" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="news-feed-stream">STREAMING NEWS FEED</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="news-feed-stream" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="news-feed-stream" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="charting-pack">CHARTING PACKAGE</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="charting-pack" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="charting-pack" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="trading-signal">TRADING SIGNAL</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trading-signal" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trading-signal" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="market-commentary">MARKET COMMENTARY</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="market-commentary" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="market-commentary" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <h2>CUSTOMER SUPPORT</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="customer-service-time">CUSTOMER SERVICE HOURS</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Customer Service Hours" name="customer-service-time" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="trade-over-phone">PLACE TRADES OVER THE PHONE</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trade-over-phone" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trade-over-phone" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <h2>PROMOTION</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="deposit-bonus">DEPOSIT BONUS</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Deposit Bonus" name="deposit-bonus" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="first-deposite-bonus">BONUS FOR FIRST DEPOSIT</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Bonus For First Deposite" name="first-deposite-bonus" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="free-vps">FREE VPS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="free-vps" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="free-vps" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <div class="text-right pb-3">
+                  <button class="btn custom-btn radius-2px tab-click" data-click="#step-2">
+                    <span>next<span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Step-2 -->
+            <div role="tabpanel" class="tab-pane fade" id="steptwo">
+              <div class="container review-form-container">
+                <h2>ACCOUNT INFORMATION</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="segregeted-acc">SEGREGATED ACCOUNT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="segregeted-acc" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="segregeted-acc" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="islamic-acc">ISLAMIC ACCOUNT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="islamic-acc" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="islamic-acc" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="institutional-acc">INSTITUTIONAL ACCOUNT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="institutional-acc" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="institutional-acc" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="vip-service">VIP SERVICE</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="vip-service" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="vip-service" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="pamm-mam">PAMM / MAM ACCOUNT</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom" placeholder="Pamm/Mam" name="pamm-mam" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="deposite-option">DEPOIST OPTION</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom" placeholder="Deposite Option" name="deposite-option" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="withdrawal-opt">WITHDRAWAL OPTION</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom" placeholder="Withdrawal Option" name="withdrawal-opt" >
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <h2>TRADING TERMS</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="trading-platform">TRADING PLATFORM</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Trading Platform" name="trading-platform" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="precision-pricing">PRECISION PRICING</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Precision Pricing" name="precision-pricing" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="spread-type">TYPE OF SPREAD</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Type of Spread" name="spread-type" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="commission">COMMISSION</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="commission" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="commission" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="scalping">SCALPING</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="scalping" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="scalping" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="hedging">HEDGING</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="hedging" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="hedging" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="expert-advisors">EXPERT ADVISORS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="expert-advisors" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="expert-advisors" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="lowest-spread">LOWEST SPREAD</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Lowest Spread" name="lowest-spread" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="trading-instrument">TRADING INSTRUMENTS</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Trading Instrument" name="trading-instrument" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="one-click-execution">ONE CLICK EXECUTION</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="one-click-execution" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="one-click-execution" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="oco-orders">OCO ORDERS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="oco-orders" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="oco-orders" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="managed-acc">MANAGED ACCOUNT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="managed-acc" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="managed-acc" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email-alerts">EMAIL ALERTS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="email-alerts" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="email-alerts" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="mobile-alerts">Mobile ALERTS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="mobile-alerts" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="mobile-alerts" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="trailing-stops">TRAILING STOPS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trailing-stops" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trailing-stops" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="mobile-trading">MOBILE TRADING</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="mobile-trading" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="mobile-trading" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="web-based-trading">WEB BASED TRADING</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="web-based-trading" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="web-based-trading" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <h2>CUSTOMER SUPPORT</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="customer-support-lang">CUSTOMER SUPPORT LANG</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Customer Support Lang" name="customer-support-lang" >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email-hone-support">EMAIL+PHONE SUPPORT</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="email-hone-support" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="email-hone-support" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="personal-acc-manager">PERSONAL ACCOUNT MANAGER</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="personal-acc-manager" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="personal-acc-manager" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="customer-service-time">CUSTOMER SERVICE HOURS</label>
+                      <p class="form-group no-m">
+                        <input required="required" type="text" class="form-control form-custom no-m" placeholder="Customer Service Hours" name="customer-service-time" >
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <h2>PROMOTION</h2>
+                <div class="border-combo">
+                  <p class="line-green"></p>
+                  <p class="line-rellow"></p>
+                </div>
+                <form action="" class="review-form form-group field-radius is-empty">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label for="trading-tools">TRADING TOOLS</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trading-tools" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trading-tools" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="other-promotion">OTHER PROMOTION</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="other-promotion" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="other-promotion" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="trade-close-over-phone">CLOSE TRADE OVER THE PHONE</label>
+                      <p class="checkbox radiofix sm-pt-1 text-left no-mb">
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trade-close-over-phone" value="yes">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">Yes</span>
+                        </label>
+                        <label class="mr-1 radiofix">
+                        <input required="required" type="radio"  name="trade-close-over-phone" value="no">
+                        <span class="redio-check"></span>
+                        <span class="ac-name">No</span>
+                        </label>
+                      </p>
+                    </div>
+                  </div>
+                </form>
+                <div class="text-right pb-3">
+                  <button class="btn custom-btn radius-2px tab-click" data-click="#step-1"><span>Back</span></button>
+                  <button class="btn custom-btn radius-2px"><span>Submit</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ms-sitebar-container -->
+    <div class="sb-slidebar" id="ms-slidebar">
+      <div class="sb-slidebar-container">
+        <div class="sm-logo-container">
+          <span>FXmastermind</span>
+          <i class="fa fa-arrow-circle-left close-menu"></i>
+        </div>
+        <ul class="ms-slidebar-menu" role="tablist" aria-multiselectable="true">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li class="menu-dropdown dropdown">
+            <a class="nav-link" href="javascript:void(0)">Our Services</a>
+            <ul class="dropdown-menu" role="menu">
+              <a class="dropdown-item"><span class="arrow"></span></a>
+              <a class="dropdown-item" href="copytrade.html">Copytrade</a>
+              <a class="dropdown-item" href="fund-manage.html">Fund Management</a>
+              <a class="dropdown-item" href="fx-consultancy.html">FX Consultancy</a>
+              <div class="dropshadow"></div>
+            </ul>
+          </li>
+          <li class="menu-dropdown dropdown">
+            <a class="nav-link" href="javascript:void(0)">Signal Service</a>
+            <ul class="dropdown-menu" role="menu">
+              <a class="dropdown-item"><span class="arrow"></span></a>
+              <a class="dropdown-item" href="signal/fx-signal.html">FX Signal</a>
+              <a class="dropdown-item" href="signal/signal-package.html">Signal Packages</a>
+              <a class="dropdown-item" href="signal/signal-report.html">Signal report</a>
+              <a class="dropdown-item" href="signal/signal-faq.html">Signal Faq</a>
+              <div class="dropshadow"></div>
+            </ul>
+          </li>
+          <li><a class="nav-link page-scroll" href="analysis/fx-analysis.html">Market Analysis</a></li>
+          <li><a class="nav-link page-scroll" href="blog/fx-blog.html">Official Blog</a></li>
+          <li class="menu-dropdown dropdown">
+            <a class="nav-link" href="javascript:void(0)">Broker Review</a>
+            <ul class="dropdown-menu" role="menu">
+              <a class="dropdown-item"><span class="arrow"></span></a>
+              <a class="dropdown-item" href="broker.html">All Brokers</a>
+              <div class="dropshadow"></div>
+            </ul>
+          </li>
+          <li class="menu-dropdown dropdown">
+            <a class="nav-link active showed" href="javascript:void(0)">FXMASTERMIND</a>
+            <ul class="dropdown-menu expanded" role="menu">
+              <a class="dropdown-item"><span class="arrow"></span></a>
+              <a class="dropdown-item" href="about.html">About</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item active" href="contact.html">Contact</a>
+              <div class="dropshadow"></div>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- START FOOTER SECTION --> 
+    <footer>
+      <div class="top_footer blue-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3-cus">
+              <h4>ABOUT US</h4>
+              <p class="text-justify">Our most extrusive business policy subsequently offers splendid facilities to any clients or business organization. The policy itself talk regarding facilitating the clientage The policy itself talk regarding facilitating the clientage The policy itself talk regarding facilitating the clientage... <a href="javascript:void(0)" class="btn btn-footer-read"><span>Read More</span></a>
+            </div>
+            <div class="col-md-1_5">
+              <h4>OUR SERVICES</h4>
+              <ul class="footer-menu">
+                <li><a href="javascript:void(0)">Copytrade Service</a></li>
+                <li><a href="javascript:void(0)">Fund Management</a></li>
+                <li><a href="javascript:void(0)">FX Consultancy</a></li>
+                <li><a href="javascript:void(0)">Forex Signal Service</a></li>
+                <li><a href="javascript:void(0)">Forex Broker</a></li>
+              </ul>
+            </div>
+            <div class="col-md-1_5">
+              <h4>Others</h4>
+              <ul class="footer-menu">
+                <li><a href="javascript:void(0)">Mastermind Blog</a></li>
+                <li><a href="javascript:void(0)">FX Analysis</a></li>
+                <li><a href="javascript:void(0)">About Us</a></li>
+                <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                <li><a href="javascript:void(0)">Terms & Condition</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3-cus">
+              <h4>Recent Blog</h4>
+              <ul class="footer-blog">
+                <li>
+                  <a href="javascript:void(0)">
+                  <img src="assets/images/service/crypto-consultancy.jpg" alt="">
+                  <span class="blog-title">Experience Code Conference With The Best Of The Best In The Field</span>
+                  <span class="bloger">Posted By John, 10th Jan 2019, 8.30 pm</span>
+                  <span class="blog-stats"><i class="fa fa-thumbs-up"></i> 22 <i class="fa fa-eye"></i> 22 <i class="fa fa-comments"></i> 22</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                  <img src="assets/images/service/crypto-consultancy.jpg" alt="">
+                  <span class="blog-title">Experience Code Conference With The Best Of The Best In The Field</span>
+                  <span class="bloger">Posted By John, 10th Jan 2019, 8.30 pm</span>
+                  <span class="blog-stats"><i class="fa fa-thumbs-up"></i> 22 <i class="fa fa-eye"></i> 22 <i class="fa fa-comments"></i> 22</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                  <img src="assets/images/service/crypto-consultancy.jpg" alt="">
+                  <span class="blog-title">Experience Code Conference With The Best Of The Best In The Field</span>
+                  <span class="bloger">Posted By John, 10th Jan 2019, 8.30 pm</span>
+                  <span class="blog-stats"><i class="fa fa-thumbs-up"></i> 22 <i class="fa fa-eye"></i> 22 <i class="fa fa-comments"></i> 22</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top_footer blue-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <p><span>Disclaimer : </span> Any Advice or information on this website is General Advice Only - It does not take into account your personal circumstances, please do not trade or invest based solely on this information. By Viewing any material or using the information within this site you agree that this is general education material and you will not hold any person or entity responsible for loss or damages resulting from the content or general advice provided here by International Trader Network, its employees, directors or fellow members. Futures, options, and spot currency, Crypto Currency trading has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order to invest in the futures and options markets. Don't trade with money you can't afford to lose. This website is neither a solicitation nor an offer to Buy/Sell Futures, Spot Forex, CFD's, options or other financial products. No representation is being made that any account will or is likely to achieve profits or losses similar to those discussed in any material on this website. The past performance of any trading system or methodology is not necessarily indicative of future results.</p>
+              <p><span>High Risk Warning : </span> Forex, Futures, and Options trading, Crypto Trading has large potential rewards, but also large potential risks. The high degree of leverage can work against you as well as for you. You must be aware of the risks of investing in forex, futures, and options, Crypto and be willing to accept them in order to trade in these markets. Forex trading involves substantial risk of loss and is not suitable for all investors. Please do not trade with borrowed money or money you cannot afford to lose. Any opinions, news, research, analysis, prices, or other information contained on this website is provided as general market commentary and does not constitute investment advice. We will not accept liability for any loss or damage, including without limitation to, any loss of profit, which may arise directly or indirectly from the use of or reliance on such information. Please remember that the past performance of any trading system or methodology is not necessarily indicative of future results.</p>
+            </div>
+          </div>
+        </div>
+        <div class="rounded_shape rounded_shape2"></div>
+      </div>
+      <div class="bottom_footer_second">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="copyright text-center">Copyright © 2019 FXMastermind — All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER SECTION --> 
+    <a href="#" class="scrollup btn-default" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
+    <!-- Latest jQuery --> 
+    <script src="assets/js/jquery-1.12.4.min.js"></script> 
+    <!-- Latest compiled and minified Bootstrap --> 
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+    <!-- owl-carousel min js  --> 
+    <script src="assets/js/owl.carousel.min.js"></script> 
+    <!-- magnific-popup min js  --> 
+    <script src="assets/js/magnific-popup.min.js"></script> 
+    <!-- waypoints min js  --> 
+    <script src="assets/js/waypoints.min.js"></script> 
+    <!-- parallax js  --> 
+    <script src="assets/js/parallax.js"></script> 
+    <!-- countdown js  --> 
+    <script src="assets/js/jquery.countdown.min.js"></script> 
+    <!-- particles min js  --> 
+    <script src="assets/js/particles.min.js"></script>
+    <script>
+      $('.after-login').hide();
+      
+      $('#submitButton').click(function(){
+      $('.after-login').show();
+      $('.login-sign-container').hide();
+      })
+    </script>
+    <!-- Ticker -->
+    <script src="assets/js/jquery.carouselTicker.js"></script>
+    <script src="assets/js/start.js"></script>
+    <script src="assets/js/jquery.rateyo.min.js"></script>
+    <script src="assets/js/toastr.min.js"></script>
+    <script src="assets/js/jssocials.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
