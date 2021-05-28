@@ -106,7 +106,7 @@
         "swiper": "^4.1.6",
         "switchery": "github:abpetkov/switchery",
         "timepicker": "^1.11.12",
-        "tinymce": "^4.7.1",
+        "tinymce": "^5.7.1",
         "tipso": "^1.0.8",
         "toastr": "^2.1.2",
         "tooltipster": "^4.2.5",
